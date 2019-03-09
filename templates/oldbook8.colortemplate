@@ -146,6 +146,7 @@ Debug                     -> Special
 SpecialChar               -> Special
 Tag                       -> Special
 
+Noise                     -> Delimiter
 diffAdded                 -> DiffAdd
 diffBDiffer               -> WarningMsg
 diffChanged               -> DiffChange
@@ -158,20 +159,32 @@ diffIsA                   -> WarningMsg
 diffNoEOL                 -> WarningMsg
 diffOnly                  -> WarningMsg
 diffRemoved               -> DiffDelete
-
 htmlBold                  -> markdownBold
+htmlEndTag                -> Delimiter
 htmlItalic                -> markdownItalic
 htmlLink                  -> Underlined
 htmlSpecialTagName        -> htmlTagName
-
-htmlEndTag                -> Delimiter
 htmlTag                   -> Delimiter
 htmlTagName               -> Statement
+markdownLinkDelimiter     -> Delimiter
+markdownLinkTextDelimiter -> Delimiter
+rubyBlockParameter        -> Identifier
+rubyBlockParameterList    -> Delimiter
+rubyCurlyBlockDelimiter   -> Delimiter
+rubyStringDelimiter       -> StringDelimiter
+shDerefSimple             -> Identifier
+shFor                     -> Identifier
+shQuote                   -> StringDelimiter
+vimAutoCmdSfxList         -> Type
+vimAutoEventList          -> Identifier
+vimCommentTitle           -> SpecialComment
+vimHighlight              -> Statement
 xmlEndTag                 -> Delimiter
 xmlTag                    -> Delimiter
 xmlTagName                -> Statement
-
-markdownLinkDelimiter     -> Delimiter
-markdownLinkTextDelimiter -> Delimiter
-
-vimCommentTitle           -> SpecialComment
+zshDeref                  -> Identifier
+zshOperator               -> Operator
+zshStringDelimiter        -> StringDelimiter
+zshSubst                  -> Identifier
+zshSubstDelim             -> Delimiter
+zshVariableDef            -> Identifier

@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat  9 Mar 18:16:30 2019
+" Last Updated: Sat  9 Mar 18:56:43 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -106,6 +106,7 @@ hi! link Typedef Type
 hi! link Debug Special
 hi! link SpecialChar Special
 hi! link Tag Special
+hi! link Noise Delimiter
 hi! link diffAdded DiffAdd
 hi! link diffBDiffer WarningMsg
 hi! link diffChanged DiffChange
@@ -119,18 +120,34 @@ hi! link diffNoEOL WarningMsg
 hi! link diffOnly WarningMsg
 hi! link diffRemoved DiffDelete
 hi! link htmlBold markdownBold
+hi! link htmlEndTag Delimiter
 hi! link htmlItalic markdownItalic
 hi! link htmlLink Underlined
 hi! link htmlSpecialTagName htmlTagName
-hi! link htmlEndTag Delimiter
 hi! link htmlTag Delimiter
 hi! link htmlTagName Statement
+hi! link markdownLinkDelimiter Delimiter
+hi! link markdownLinkTextDelimiter Delimiter
+hi! link rubyBlockParameter Identifier
+hi! link rubyBlockParameterList Delimiter
+hi! link rubyCurlyBlockDelimiter Delimiter
+hi! link rubyStringDelimiter StringDelimiter
+hi! link shDerefSimple Identifier
+hi! link shFor Identifier
+hi! link shQuote StringDelimiter
+hi! link vimAutoCmdSfxList Type
+hi! link vimAutoEventList Identifier
+hi! link vimCommentTitle SpecialComment
+hi! link vimHighlight Statement
 hi! link xmlEndTag Delimiter
 hi! link xmlTag Delimiter
 hi! link xmlTagName Statement
-hi! link markdownLinkDelimiter Delimiter
-hi! link markdownLinkTextDelimiter Delimiter
-hi! link vimCommentTitle SpecialComment
+hi! link zshDeref Identifier
+hi! link zshOperator Operator
+hi! link zshStringDelimiter StringDelimiter
+hi! link zshSubst Identifier
+hi! link zshSubstDelim Delimiter
+hi! link zshVariableDef Identifier
 finish
 
 " Background:      dark
@@ -231,6 +248,7 @@ finish
 " Debug                     -> Special
 " SpecialChar               -> Special
 " Tag                       -> Special
+" Noise                     -> Delimiter
 " diffAdded                 -> DiffAdd
 " diffBDiffer               -> WarningMsg
 " diffChanged               -> DiffChange
@@ -244,15 +262,31 @@ finish
 " diffOnly                  -> WarningMsg
 " diffRemoved               -> DiffDelete
 " htmlBold                  -> markdownBold
+" htmlEndTag                -> Delimiter
 " htmlItalic                -> markdownItalic
 " htmlLink                  -> Underlined
 " htmlSpecialTagName        -> htmlTagName
-" htmlEndTag                -> Delimiter
 " htmlTag                   -> Delimiter
 " htmlTagName               -> Statement
+" markdownLinkDelimiter     -> Delimiter
+" markdownLinkTextDelimiter -> Delimiter
+" rubyBlockParameter        -> Identifier
+" rubyBlockParameterList    -> Delimiter
+" rubyCurlyBlockDelimiter   -> Delimiter
+" rubyStringDelimiter       -> StringDelimiter
+" shDerefSimple             -> Identifier
+" shFor                     -> Identifier
+" shQuote                   -> StringDelimiter
+" vimAutoCmdSfxList         -> Type
+" vimAutoEventList          -> Identifier
+" vimCommentTitle           -> SpecialComment
+" vimHighlight              -> Statement
 " xmlEndTag                 -> Delimiter
 " xmlTag                    -> Delimiter
 " xmlTagName                -> Statement
-" markdownLinkDelimiter     -> Delimiter
-" markdownLinkTextDelimiter -> Delimiter
-" vimCommentTitle           -> SpecialComment
+" zshDeref                  -> Identifier
+" zshOperator               -> Operator
+" zshStringDelimiter        -> StringDelimiter
+" zshSubst                  -> Identifier
+" zshSubstDelim             -> Delimiter
+" zshVariableDef            -> Identifier
