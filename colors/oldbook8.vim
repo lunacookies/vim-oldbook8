@@ -1,13 +1,13 @@
-" Name:         ForestBook_8
-" Description:  Combination of sacredforest and oldbook in Colortemplate
+" Name:         Old Book 8
+" Description:  Old Book by Karolis Koncevicius, rebuilt
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat  9 Mar 18:13:23 2019
+" Last Updated: Sat  9 Mar 18:16:30 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
-  echoerr '[ForestBook_8] There are not enough colors.'
+  echoerr '[Old Book 8] There are not enough colors.'
   finish
 endif
 
@@ -18,7 +18,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'forestbook8'
+let g:colors_name = 'oldbook8'
 
 hi Normal ctermfg=15 ctermbg=0 guifg=#e8e1db guibg=#3c4855 guisp=NONE cterm=NONE gui=NONE
 hi Cursor ctermfg=0 ctermbg=2 guifg=#3c4855 guibg=#a5a6a4 guisp=NONE cterm=NONE gui=NONE

@@ -1,9 +1,9 @@
 # vim: set ft=colortemplate nomodeline:
-Full name:       ForestBook_8
-Short name:      forestbook8
+Full name:       Old Book 8
+Short name:      oldbook8
 Author:          Karolis Koncevicius
 Maintainer:      Aramis Razzaghipour <aramisnoah@gmail.com>
-Description:     Combination of sacredforest and oldbook in Colortemplate
+Description:     Old Book by Karolis Koncevicius, rebuilt
 
 Terminal Colors: 16
 Background:      dark

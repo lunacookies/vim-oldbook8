@@ -1,4 +1,4 @@
-# ForestBook 8
+# Old Book 8
 
 The [oldbook][ob] colourscheme for Vim, rebuilt from the ground up in
 [Colortemplate][ct], the Toolkit for Vim Colourscheme Designers.
