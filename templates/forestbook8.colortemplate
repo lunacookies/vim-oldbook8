@@ -173,3 +173,5 @@ xmlTagName                -> Statement
 
 markdownLinkDelimiter     -> Delimiter
 markdownLinkTextDelimiter -> Delimiter
+
+vimCommentTitle           -> SpecialComment

@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat  9 Mar 18:06:45 2019
+" Last Updated: Sat  9 Mar 18:13:23 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -130,6 +130,7 @@ hi! link xmlTag Delimiter
 hi! link xmlTagName Statement
 hi! link markdownLinkDelimiter Delimiter
 hi! link markdownLinkTextDelimiter Delimiter
+hi! link vimCommentTitle SpecialComment
 finish
 
 " Background:      dark
@@ -254,3 +255,4 @@ finish
 " xmlTagName                -> Statement
 " markdownLinkDelimiter     -> Delimiter
 " markdownLinkTextDelimiter -> Delimiter
+" vimCommentTitle           -> SpecialComment
