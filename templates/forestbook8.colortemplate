@@ -1,0 +1,175 @@
+# vim: set ft=colortemplate nomodeline:
+Full name:       ForestBook_8
+Short name:      forestbook8
+Author:          Karolis Koncevicius
+Maintainer:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description:     Combination of sacredforest and oldbook in Colortemplate
+
+Terminal Colors: 16
+Background:      dark
+
+#
+# Palette
+#
+
+Color: darker_blue  #3c4855 ~ 0
+Color: dark_blue    #475461 ~ 8
+Color: medium_blue  #6c7887 ~ 7
+Color: white        #e8e1db ~ 15
+Color: light_blue   #899ba6 ~ 4
+Color: dark_brown   #a18069 ~ 1
+Color: brown        #999083 ~ 5
+Color: light_brown  #a5a6a4 ~ 2
+Color: dark_yellow  #d5bc02 ~ 3
+Color: yellow       #ddd668 ~ 11
+Color: cyan         #87d7ff ~ 6
+
+#
+# Highlighting
+#
+
+Normal          white       darker_blue
+Cursor          darker_blue light_brown
+
+# Vim Interface
+
+CursorLineNr    white       dark_blue
+FoldColumn      medium_blue dark_blue
+Folded          medium_blue dark_blue
+LineNr          medium_blue none
+MatchParen      white       medium_blue
+SignColumn      medium_blue none
+
+Conceal         medium_blue none
+Ignore          medium_blue none
+NonText         medium_blue none
+SpecialKey      medium_blue none
+EndOfBuffer     medium_blue none
+
+Pmenu           light_blue  dark_blue
+PmenuSbar       dark_blue   dark_blue
+PmenuSel        white       medium_blue
+PmenuThumb      medium_blue medium_blue
+
+ErrorMsg        none        dark_brown
+ModeMsg         medium_blue none
+MoreMsg         medium_blue none
+Question        white       none
+WarningMsg      none        dark_brown
+
+ColorColumn     none        dark_blue
+CursorColumn    none        dark_blue
+CursorLine      none        dark_blue
+
+StatusLine      white       medium_blue
+StatusLineNC    medium_blue dark_blue
+TabLine         medium_blue dark_blue
+TabLineFill     medium_blue dark_blue
+TabLineSel      white       medium_blue
+VertSplit       medium_blue none
+WildMenu        white       brown
+
+IncSearch       darker_blue dark_yellow
+Search          darker_blue yellow
+Visual          darker_blue cyan
+VisualNOS       none        none underline
+
+DiffAdd         light_brown dark_blue
+DiffChange      none        dark_blue
+DiffDelete      dark_brown  dark_blue
+DiffText        white       medium_blue
+
+# Syntax
+
+Comment         medium_blue none
+Constant        brown       none
+Error           dark_brown  none
+Identifier      brown       none
+PreProc         light_brown none
+Special         dark_brown  none
+Statement       light_brown none
+Type            light_brown none
+
+Delimiter       light_blue  none
+Directory       brown       none
+Function        light_brown none
+SpecialComment  light_blue  none
+StringDelimiter medium_blue none
+Title           white       none
+Todo            white       none bold
+Underlined      brown       none underline
+
+SpellBad        none        none undercurl
+SpellCap        none        none undercurl
+SpellLocal      none        none undercurl
+SpellRare       none        none undercurl
+
+markdownBold    light_brown none bold
+markdownItalic  light_brown none g=italic
+
+#
+# Links
+#
+
+# Vim Interface
+
+Terminal           -> Normal
+
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
+
+# Syntax
+
+Boolean                   -> Constant
+Character                 -> Constant
+Float                     -> Constant
+Number                    -> Constant
+String                    -> Constant
+
+Conditional               -> Statement
+Exception                 -> Statement
+Keyword                   -> Statement
+Label                     -> Statement
+Operator                  -> Statement
+Repeat                    -> Statement
+
+Define                    -> PreProc
+Include                   -> PreProc
+Macro                     -> PreProc
+PreCondit                 -> PreProc
+
+StorageClass              -> Type
+Structure                 -> Type
+Typedef                   -> Type
+
+Debug                     -> Special
+SpecialChar               -> Special
+Tag                       -> Special
+
+diffAdded                 -> DiffAdd
+diffBDiffer               -> WarningMsg
+diffChanged               -> DiffChange
+diffCommon                -> WarningMsg
+diffDiffer                -> WarningMsg
+diffFile                  -> Directory
+diffIdentical             -> WarningMsg
+diffIndexLine             -> Number
+diffIsA                   -> WarningMsg
+diffNoEOL                 -> WarningMsg
+diffOnly                  -> WarningMsg
+diffRemoved               -> DiffDelete
+
+htmlBold                  -> markdownBold
+htmlItalic                -> markdownItalic
+htmlLink                  -> Underlined
+htmlSpecialTagName        -> htmlTagName
+
+htmlEndTag                -> Delimiter
+htmlTag                   -> Delimiter
+htmlTagName               -> Statement
+xmlEndTag                 -> Delimiter
+xmlTag                    -> Delimiter
+xmlTagName                -> Statement
+
+markdownLinkDelimiter     -> Delimiter
+markdownLinkTextDelimiter -> Delimiter
