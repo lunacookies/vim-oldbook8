@@ -170,6 +170,8 @@ htmlTag                   -> Delimiter
 htmlTagName               -> Statement
 markdownLinkDelimiter     -> Delimiter
 markdownLinkTextDelimiter -> Delimiter
+pythonQuotes              -> StringDelimiter
+pythonTripleQuotes        -> StringDelimiter
 rubyBlockParameter        -> Identifier
 rubyBlockParameterList    -> Delimiter
 rubyCurlyBlockDelimiter   -> Delimiter
