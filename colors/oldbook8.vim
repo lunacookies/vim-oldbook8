@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sun 17 Mar 08:46:42 2019
+" Last Updated: Sun 17 Mar 09:53:55 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -62,7 +62,7 @@ hi DiffDelete ctermfg=1 ctermbg=8 guifg=#a18069 guibg=#475461 guisp=NONE cterm=N
 hi DiffText ctermfg=15 ctermbg=7 guifg=#e8e1db guibg=#6c7887 guisp=NONE cterm=NONE gui=NONE
 hi Comment ctermfg=7 ctermbg=NONE guifg=#6c7887 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Constant ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Error ctermfg=1 ctermbg=NONE guifg=#a18069 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Error ctermfg=NONE ctermbg=1 guifg=NONE guibg=#a18069 guisp=NONE cterm=NONE gui=NONE
 hi Identifier ctermfg=15 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreProc ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Special ctermfg=1 ctermbg=NONE guifg=#a18069 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -209,7 +209,7 @@ finish
 " DiffText        white       medium_blue
 " Comment         medium_blue none
 " Constant        brown       none
-" Error           dark_brown  none
+" Error           none        dark_brown
 " Identifier      white       none
 " PreProc         light_brown none
 " Special         dark_brown  none
