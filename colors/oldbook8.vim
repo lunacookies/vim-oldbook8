@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sun 17 Mar 08:43:25 2019
+" Last Updated: Sun 17 Mar 08:46:42 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -141,6 +141,7 @@ hi! link shFor Identifier
 hi! link shQuote StringDelimiter
 hi! link vimAutoCmdSfxList Type
 hi! link vimAutoEventList Identifier
+hi! link vimCmdSep Special
 hi! link vimCommentTitle SpecialComment
 hi! link vimHighlight Statement
 hi! link xmlEndTag Delimiter
@@ -287,6 +288,7 @@ finish
 " shQuote                   -> StringDelimiter
 " vimAutoCmdSfxList         -> Type
 " vimAutoEventList          -> Identifier
+" vimCmdSep                 -> Special
 " vimCommentTitle           -> SpecialComment
 " vimHighlight              -> Statement
 " xmlEndTag                 -> Delimiter
