@@ -84,7 +84,7 @@ DiffText        white       medium_blue
 Comment         medium_blue none
 Constant        brown       none
 Error           dark_brown  none
-Identifier      brown       none
+Identifier      white       none
 PreProc         light_brown none
 Special         dark_brown  none
 Statement       light_brown none
