@@ -181,6 +181,7 @@ shFor                     -> Identifier
 shQuote                   -> StringDelimiter
 vimAutoCmdSfxList         -> Type
 vimAutoEventList          -> Identifier
+vimCmdSep                 -> Special
 vimCommentTitle           -> SpecialComment
 vimHighlight              -> Statement
 xmlEndTag                 -> Delimiter
