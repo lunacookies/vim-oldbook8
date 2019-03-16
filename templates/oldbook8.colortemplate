@@ -92,7 +92,7 @@ Type            light_brown none
 
 Delimiter       light_blue  none
 Directory       brown       none
-Function        light_brown none
+Function        light_blue  none
 SpecialComment  light_blue  none
 StringDelimiter medium_blue none
 Title           white       none
