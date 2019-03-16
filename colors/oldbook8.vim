@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat  9 Mar 18:56:43 2019
+" Last Updated: Sun 17 Mar 08:37:24 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -63,14 +63,14 @@ hi DiffText ctermfg=15 ctermbg=7 guifg=#e8e1db guibg=#6c7887 guisp=NONE cterm=NO
 hi Comment ctermfg=7 ctermbg=NONE guifg=#6c7887 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Constant ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Error ctermfg=1 ctermbg=NONE guifg=#a18069 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Identifier ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Identifier ctermfg=15 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreProc ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Special ctermfg=1 ctermbg=NONE guifg=#a18069 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Statement ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Type ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Delimiter ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Delimiter ctermfg=15 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Directory ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Function ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Function ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialComment ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi StringDelimiter ctermfg=7 ctermbg=NONE guifg=#6c7887 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Title ctermfg=15 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -107,6 +107,8 @@ hi! link Debug Special
 hi! link SpecialChar Special
 hi! link Tag Special
 hi! link Noise Delimiter
+hi! link colortemplateAttr Special
+hi! link colortemplateHiGroup Statement
 hi! link diffAdded DiffAdd
 hi! link diffBDiffer WarningMsg
 hi! link diffChanged DiffChange
@@ -205,14 +207,14 @@ finish
 " Comment         medium_blue none
 " Constant        brown       none
 " Error           dark_brown  none
-" Identifier      brown       none
+" Identifier      white       none
 " PreProc         light_brown none
 " Special         dark_brown  none
 " Statement       light_brown none
 " Type            light_brown none
-" Delimiter       light_blue  none
+" Delimiter       white       none
 " Directory       brown       none
-" Function        light_brown none
+" Function        light_blue  none
 " SpecialComment  light_blue  none
 " StringDelimiter medium_blue none
 " Title           white       none
@@ -249,6 +251,8 @@ finish
 " SpecialChar               -> Special
 " Tag                       -> Special
 " Noise                     -> Delimiter
+" colortemplateAttr         -> Special
+" colortemplateHiGroup      -> Statement
 " diffAdded                 -> DiffAdd
 " diffBDiffer               -> WarningMsg
 " diffChanged               -> DiffChange
