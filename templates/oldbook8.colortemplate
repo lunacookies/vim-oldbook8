@@ -147,6 +147,8 @@ SpecialChar               -> Special
 Tag                       -> Special
 
 Noise                     -> Delimiter
+colortemplateAttr         -> Special
+colortemplateHiGroup      -> Statement
 diffAdded                 -> DiffAdd
 diffBDiffer               -> WarningMsg
 diffChanged               -> DiffChange
