@@ -167,6 +167,7 @@ diffNoEOL                 -> WarningMsg
 diffOnly                  -> WarningMsg
 diffRemoved               -> DiffDelete
 gitconfigAssignment       -> Constant
+gitconfigEscape           -> Special
 gitconfigNone             -> Operator
 htmlBold                  -> markdownBold
 htmlEndTag                -> Delimiter
