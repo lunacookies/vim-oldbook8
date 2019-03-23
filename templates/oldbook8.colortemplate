@@ -77,7 +77,7 @@ Visual          darker_blue cyan
 VisualNOS       none        none underline
 
 DiffAdd         darker_blue green
-DiffChange      none        dark_blue
+DiffChange      dark_yellow none
 DiffDelete      darker_blue red
 DiffText        darker_blue dark_yellow
 
