@@ -149,6 +149,7 @@ SpecialChar               -> Special
 Tag                       -> Special
 
 Noise                     -> Delimiter
+Searchlight               -> IncSearch
 colortemplateAttr         -> Special
 colortemplateHiGroup      -> Statement
 diffAdded                 -> DiffAdd
