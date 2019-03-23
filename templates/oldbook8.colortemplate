@@ -23,6 +23,8 @@ Color: light_brown  #a5a6a4 ~ 2
 Color: dark_yellow  #d5bc02 ~ 3
 Color: yellow       #ddd668 ~ 11
 Color: cyan         #87d7ff ~ 6
+Color: red          #db6c6c ~ 9
+Color: green        #5bb899 ~ 10
 
 #
 # Highlighting
