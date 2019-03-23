@@ -15,11 +15,11 @@ Background:      dark
 Color: darker_blue  #3c4855 ~ 0
 Color: dark_blue    #475461 ~ 8
 Color: medium_blue  #616c72 ~ 15
-Color: white        #e8e1db ~ 7
+Color: white        #e4e2e1 ~ 7
 Color: light_blue   #899ba6 ~ 4
-Color: dark_brown   #a18069 ~ 1
+Color: dark_brown   #ad8a71 ~ 1
 Color: brown        #999083 ~ 5
-Color: light_brown  #a5a6a4 ~ 2
+Color: light_brown  #b7b3af ~ 2
 Color: dark_yellow  #d5bc02 ~ 3
 Color: yellow       #ddd668 ~ 11
 Color: cyan         #87d7ff ~ 6
