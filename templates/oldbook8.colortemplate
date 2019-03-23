@@ -92,9 +92,9 @@ Special         dark_brown  none
 Statement       light_brown none
 Type            light_brown none
 
-Delimiter       light_blue  none
+Delimiter       white       none
 Directory       brown       none
-Function        light_brown none
+Function        light_blue  none
 SpecialComment  light_blue  none
 StringDelimiter medium_blue none
 Title           white       none
