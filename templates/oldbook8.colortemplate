@@ -186,9 +186,11 @@ shFor                     -> Identifier
 shQuote                   -> StringDelimiter
 vimAutoCmdSfxList         -> Type
 vimAutoEventList          -> Identifier
+vimBracket                -> vimMapModKey
 vimCmdSep                 -> Special
 vimCommentTitle           -> SpecialComment
 vimHighlight              -> Statement
+vimMapMod                 -> vimMapModKey
 vimOption                 -> Identifier
 vimSet                    -> Constant
 vimSetEqual               -> Constant
