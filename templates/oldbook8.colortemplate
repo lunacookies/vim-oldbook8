@@ -76,10 +76,10 @@ Search          darker_blue yellow
 Visual          darker_blue cyan
 VisualNOS       none        none underline
 
-DiffAdd         light_brown dark_blue
+DiffAdd         darker_blue green
 DiffChange      none        dark_blue
-DiffDelete      dark_brown  dark_blue
-DiffText        white       medium_blue
+DiffDelete      darker_blue red
+DiffText        darker_blue dark_yellow
 
 # Syntax
 
