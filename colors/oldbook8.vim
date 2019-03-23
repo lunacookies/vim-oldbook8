@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat 23 Mar 12:27:42 2019
+" Last Updated: Sat 23 Mar 12:55:58 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -68,9 +68,9 @@ hi PreProc ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE
 hi Special ctermfg=1 ctermbg=NONE guifg=#a18069 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Statement ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Type ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Delimiter ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Delimiter ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Directory ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Function ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Function ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialComment ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi StringDelimiter ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Title ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -109,7 +109,9 @@ hi! link Tag Special
 hi! link Noise Delimiter
 hi! link Searchlight IncSearch
 hi! link colortemplateAttr Special
+hi! link colortemplateColorDef Special
 hi! link colortemplateHiGroup Statement
+hi! link colortemplateKey Keyword
 hi! link diffAdded DiffAdd
 hi! link diffBDiffer WarningMsg
 hi! link diffChanged DiffChange
@@ -221,9 +223,9 @@ finish
 " Special         dark_brown  none
 " Statement       light_brown none
 " Type            light_brown none
-" Delimiter       light_blue  none
+" Delimiter       white       none
 " Directory       brown       none
-" Function        light_brown none
+" Function        light_blue  none
 " SpecialComment  light_blue  none
 " StringDelimiter medium_blue none
 " Title           white       none
@@ -262,7 +264,9 @@ finish
 " Noise                     -> Delimiter
 " Searchlight               -> IncSearch
 " colortemplateAttr         -> Special
+" colortemplateColorDef     -> Special
 " colortemplateHiGroup      -> Statement
+" colortemplateKey          -> Keyword
 " diffAdded                 -> DiffAdd
 " diffBDiffer               -> WarningMsg
 " diffChanged               -> DiffChange
