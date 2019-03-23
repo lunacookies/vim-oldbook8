@@ -151,7 +151,9 @@ Tag                       -> Special
 Noise                     -> Delimiter
 Searchlight               -> IncSearch
 colortemplateAttr         -> Special
+colortemplateColorDef     -> Special
 colortemplateHiGroup      -> Statement
+colortemplateKey          -> Keyword
 diffAdded                 -> DiffAdd
 diffBDiffer               -> WarningMsg
 diffChanged               -> DiffChange
