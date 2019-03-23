@@ -184,6 +184,9 @@ vimAutoEventList          -> Identifier
 vimCmdSep                 -> Special
 vimCommentTitle           -> SpecialComment
 vimHighlight              -> Statement
+vimOption                 -> Identifier
+vimSet                    -> Constant
+vimSetEqual               -> Constant
 xmlEndTag                 -> Delimiter
 xmlTag                    -> Delimiter
 xmlTagName                -> Statement
