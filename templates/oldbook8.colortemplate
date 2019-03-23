@@ -166,6 +166,8 @@ diffIsA                   -> WarningMsg
 diffNoEOL                 -> WarningMsg
 diffOnly                  -> WarningMsg
 diffRemoved               -> DiffDelete
+gitconfigAssignment       -> Constant
+gitconfigNone             -> Operator
 htmlBold                  -> markdownBold
 htmlEndTag                -> Delimiter
 htmlItalic                -> markdownItalic
