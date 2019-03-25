@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat 23 Mar 12:55:58 2019
+" Last Updated: Mon 25 Mar 15:40:46 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -20,68 +20,69 @@ endif
 
 let g:colors_name = 'oldbook8'
 
-hi Normal ctermfg=7 ctermbg=0 guifg=#e8e1db guibg=#3c4855 guisp=NONE cterm=NONE gui=NONE
-hi Cursor ctermfg=0 ctermbg=2 guifg=#3c4855 guibg=#a5a6a4 guisp=NONE cterm=NONE gui=NONE
-hi CursorLineNr ctermfg=7 ctermbg=8 guifg=#e8e1db guibg=#475461 guisp=NONE cterm=NONE gui=NONE
+hi Normal ctermfg=7 ctermbg=0 guifg=#e4e2e1 guibg=#3c4855 guisp=NONE cterm=NONE gui=NONE
+hi Cursor ctermfg=0 ctermbg=10 guifg=#3c4855 guibg=#c2beba guisp=NONE cterm=NONE gui=NONE
+hi CursorLineNr ctermfg=7 ctermbg=8 guifg=#e4e2e1 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi FoldColumn ctermfg=15 ctermbg=8 guifg=#616c72 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi Folded ctermfg=15 ctermbg=8 guifg=#616c72 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi LineNr ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi MatchParen ctermfg=7 ctermbg=15 guifg=#e8e1db guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
+hi MatchParen ctermfg=7 ctermbg=15 guifg=#e4e2e1 guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
 hi SignColumn ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Conceal ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Ignore ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi NonText ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi EndOfBuffer ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Pmenu ctermfg=4 ctermbg=8 guifg=#899ba6 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
+hi Pmenu ctermfg=10 ctermbg=8 guifg=#c2beba guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi PmenuSbar ctermfg=8 ctermbg=8 guifg=#475461 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
-hi PmenuSel ctermfg=7 ctermbg=15 guifg=#e8e1db guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
+hi PmenuSel ctermfg=7 ctermbg=15 guifg=#e4e2e1 guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
 hi PmenuThumb ctermfg=15 ctermbg=15 guifg=#616c72 guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
-hi ErrorMsg ctermfg=NONE ctermbg=1 guifg=NONE guibg=#a18069 guisp=NONE cterm=NONE gui=NONE
+hi ErrorMsg ctermfg=NONE ctermbg=9 guifg=NONE guibg=#ad8a71 guisp=NONE cterm=NONE gui=NONE
 hi ModeMsg ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi MoreMsg ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Question ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi WarningMsg ctermfg=NONE ctermbg=1 guifg=NONE guibg=#a18069 guisp=NONE cterm=NONE gui=NONE
+hi Question ctermfg=7 ctermbg=NONE guifg=#e4e2e1 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi WarningMsg ctermfg=NONE ctermbg=9 guifg=NONE guibg=#ad8a71 guisp=NONE cterm=NONE gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=8 guifg=NONE guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=8 guifg=NONE guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=8 guifg=NONE guibg=#475461 guisp=NONE cterm=NONE gui=NONE
-hi StatusLine ctermfg=7 ctermbg=15 guifg=#e8e1db guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
+hi QuickFixLine ctermfg=0 ctermbg=6 guifg=#3c4855 guibg=#87d7ff guisp=NONE cterm=NONE gui=NONE
+hi StatusLine ctermfg=7 ctermbg=15 guifg=#e4e2e1 guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
 hi StatusLineNC ctermfg=15 ctermbg=8 guifg=#616c72 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi TabLine ctermfg=15 ctermbg=8 guifg=#616c72 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
 hi TabLineFill ctermfg=15 ctermbg=8 guifg=#616c72 guibg=#475461 guisp=NONE cterm=NONE gui=NONE
-hi TabLineSel ctermfg=7 ctermbg=15 guifg=#e8e1db guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
+hi TabLineSel ctermfg=7 ctermbg=15 guifg=#e4e2e1 guibg=#616c72 guisp=NONE cterm=NONE gui=NONE
 hi VertSplit ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi WildMenu ctermfg=7 ctermbg=5 guifg=#e8e1db guibg=#999083 guisp=NONE cterm=NONE gui=NONE
+hi WildMenu ctermfg=7 ctermbg=5 guifg=#e4e2e1 guibg=#9a9080 guisp=NONE cterm=NONE gui=NONE
 hi IncSearch ctermfg=0 ctermbg=3 guifg=#3c4855 guibg=#d5bc02 guisp=NONE cterm=NONE gui=NONE
 hi Search ctermfg=0 ctermbg=11 guifg=#3c4855 guibg=#ddd668 guisp=NONE cterm=NONE gui=NONE
 hi Visual ctermfg=0 ctermbg=6 guifg=#3c4855 guibg=#87d7ff guisp=NONE cterm=NONE gui=NONE
 hi VisualNOS ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
-hi DiffAdd ctermfg=0 ctermbg=10 guifg=#3c4855 guibg=#5bb899 guisp=NONE cterm=NONE gui=NONE
-hi DiffChange ctermfg=NONE ctermbg=8 guifg=NONE guibg=#475461 guisp=NONE cterm=NONE gui=NONE
-hi DiffDelete ctermfg=0 ctermbg=9 guifg=#3c4855 guibg=#db6c6c guisp=NONE cterm=NONE gui=NONE
+hi DiffAdd ctermfg=0 ctermbg=2 guifg=#3c4855 guibg=#5bb899 guisp=NONE cterm=NONE gui=NONE
+hi DiffChange ctermfg=3 ctermbg=NONE guifg=#d5bc02 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi DiffDelete ctermfg=0 ctermbg=1 guifg=#3c4855 guibg=#db6c6c guisp=NONE cterm=NONE gui=NONE
 hi DiffText ctermfg=0 ctermbg=3 guifg=#3c4855 guibg=#d5bc02 guisp=NONE cterm=NONE gui=NONE
 hi Comment ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Constant ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Error ctermfg=NONE ctermbg=1 guifg=NONE guibg=#a18069 guisp=NONE cterm=NONE gui=NONE
-hi Identifier ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi PreProc ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Special ctermfg=1 ctermbg=NONE guifg=#a18069 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Statement ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Type ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Delimiter ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Directory ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Function ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Constant ctermfg=5 ctermbg=NONE guifg=#9a9080 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Error ctermfg=NONE ctermbg=9 guifg=NONE guibg=#ad8a71 guisp=NONE cterm=NONE gui=NONE
+hi Identifier ctermfg=7 ctermbg=NONE guifg=#e4e2e1 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi PreProc ctermfg=10 ctermbg=NONE guifg=#c2beba guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Special ctermfg=9 ctermbg=NONE guifg=#ad8a71 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Statement ctermfg=10 ctermbg=NONE guifg=#c2beba guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Type ctermfg=12 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Delimiter ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Directory ctermfg=5 ctermbg=NONE guifg=#9a9080 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Function ctermfg=12 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialComment ctermfg=4 ctermbg=NONE guifg=#899ba6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi StringDelimiter ctermfg=15 ctermbg=NONE guifg=#616c72 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Title ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Todo ctermfg=7 ctermbg=NONE guifg=#e8e1db guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
-hi Underlined ctermfg=5 ctermbg=NONE guifg=#999083 guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
+hi Title ctermfg=7 ctermbg=NONE guifg=#e4e2e1 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Todo ctermfg=7 ctermbg=NONE guifg=#e4e2e1 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
+hi Underlined ctermfg=5 ctermbg=NONE guifg=#9a9080 guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
 hi SpellBad ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
 hi SpellCap ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
 hi SpellLocal ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
 hi SpellRare ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
-hi markdownBold ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
-hi markdownItalic ctermfg=2 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE,italic
+hi markdownBold ctermfg=10 ctermbg=NONE guifg=#c2beba guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
+hi markdownItalic ctermfg=10 ctermbg=NONE guifg=#c2beba guibg=NONE guisp=NONE cterm=NONE gui=NONE,italic
 hi! link Terminal Normal
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
@@ -124,6 +125,9 @@ hi! link diffIsA WarningMsg
 hi! link diffNoEOL WarningMsg
 hi! link diffOnly WarningMsg
 hi! link diffRemoved DiffDelete
+hi! link gitconfigAssignment Constant
+hi! link gitconfigEscape Special
+hi! link gitconfigNone Operator
 hi! link htmlBold markdownBold
 hi! link htmlEndTag Delimiter
 hi! link htmlItalic markdownItalic
@@ -133,6 +137,7 @@ hi! link htmlTag Delimiter
 hi! link htmlTagName Statement
 hi! link markdownLinkDelimiter Delimiter
 hi! link markdownLinkTextDelimiter Delimiter
+hi! link pythonBrackets Delimiter
 hi! link pythonQuotes StringDelimiter
 hi! link pythonTripleQuotes StringDelimiter
 hi! link rubyBlockParameter Identifier
@@ -142,11 +147,14 @@ hi! link rubyStringDelimiter StringDelimiter
 hi! link shDerefSimple Identifier
 hi! link shFor Identifier
 hi! link shQuote StringDelimiter
+hi! link tmuxFlags Special
 hi! link vimAutoCmdSfxList Type
 hi! link vimAutoEventList Identifier
+hi! link vimBracket vimMapModKey
 hi! link vimCmdSep Special
 hi! link vimCommentTitle SpecialComment
 hi! link vimHighlight Statement
+hi! link vimMapMod vimMapModKey
 hi! link vimOption Identifier
 hi! link vimSet Constant
 hi! link vimSetEqual Constant
@@ -165,16 +173,17 @@ finish
 " Color: darker_blue  #3c4855 ~ 0
 " Color: dark_blue    #475461 ~ 8
 " Color: medium_blue  #616c72 ~ 15
-" Color: white        #e8e1db ~ 7
+" Color: white        #e4e2e1 ~ 7
 " Color: light_blue   #899ba6 ~ 4
-" Color: dark_brown   #a18069 ~ 1
-" Color: brown        #999083 ~ 5
-" Color: light_brown  #a5a6a4 ~ 2
+" Color: grey         #a5a6a4 ~ 12
+" Color: dark_brown   #ad8a71 ~ 9
+" Color: brown        #9a9080 ~ 5
+" Color: light_brown  #c2beba ~ 10
 " Color: dark_yellow  #d5bc02 ~ 3
 " Color: yellow       #ddd668 ~ 11
 " Color: cyan         #87d7ff ~ 6
-" Color: red          #db6c6c ~ 9
-" Color: green        #5bb899 ~ 10
+" Color: red          #db6c6c ~ 1
+" Color: green        #5bb899 ~ 2
 " Normal          white       darker_blue
 " Cursor          darker_blue light_brown
 " CursorLineNr    white       dark_blue
@@ -188,7 +197,7 @@ finish
 " NonText         medium_blue none
 " SpecialKey      medium_blue none
 " EndOfBuffer     medium_blue none
-" Pmenu           light_blue  dark_blue
+" Pmenu           light_brown dark_blue
 " PmenuSbar       dark_blue   dark_blue
 " PmenuSel        white       medium_blue
 " PmenuThumb      medium_blue medium_blue
@@ -200,6 +209,7 @@ finish
 " ColorColumn     none        dark_blue
 " CursorColumn    none        dark_blue
 " CursorLine      none        dark_blue
+" QuickFixLine    darker_blue cyan
 " StatusLine      white       medium_blue
 " StatusLineNC    medium_blue dark_blue
 " TabLine         medium_blue dark_blue
@@ -212,7 +222,7 @@ finish
 " Visual          darker_blue cyan
 " VisualNOS       none        none underline
 " DiffAdd         darker_blue green
-" DiffChange      none        dark_blue
+" DiffChange      dark_yellow none
 " DiffDelete      darker_blue red
 " DiffText        darker_blue dark_yellow
 " Comment         medium_blue none
@@ -222,10 +232,10 @@ finish
 " PreProc         light_brown none
 " Special         dark_brown  none
 " Statement       light_brown none
-" Type            light_brown none
-" Delimiter       white       none
+" Type            grey        none
+" Delimiter       light_blue  none
 " Directory       brown       none
-" Function        light_blue  none
+" Function        grey        none
 " SpecialComment  light_blue  none
 " StringDelimiter medium_blue none
 " Title           white       none
@@ -279,6 +289,9 @@ finish
 " diffNoEOL                 -> WarningMsg
 " diffOnly                  -> WarningMsg
 " diffRemoved               -> DiffDelete
+" gitconfigAssignment       -> Constant
+" gitconfigEscape           -> Special
+" gitconfigNone             -> Operator
 " htmlBold                  -> markdownBold
 " htmlEndTag                -> Delimiter
 " htmlItalic                -> markdownItalic
@@ -288,6 +301,7 @@ finish
 " htmlTagName               -> Statement
 " markdownLinkDelimiter     -> Delimiter
 " markdownLinkTextDelimiter -> Delimiter
+" pythonBrackets            -> Delimiter
 " pythonQuotes              -> StringDelimiter
 " pythonTripleQuotes        -> StringDelimiter
 " rubyBlockParameter        -> Identifier
@@ -297,11 +311,14 @@ finish
 " shDerefSimple             -> Identifier
 " shFor                     -> Identifier
 " shQuote                   -> StringDelimiter
+" tmuxFlags                 -> Special
 " vimAutoCmdSfxList         -> Type
 " vimAutoEventList          -> Identifier
+" vimBracket                -> vimMapModKey
 " vimCmdSep                 -> Special
 " vimCommentTitle           -> SpecialComment
 " vimHighlight              -> Statement
+" vimMapMod                 -> vimMapModKey
 " vimOption                 -> Identifier
 " vimSet                    -> Constant
 " vimSetEqual               -> Constant
