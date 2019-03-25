@@ -92,11 +92,11 @@ Identifier      white       none
 PreProc         light_brown none
 Special         dark_brown  none
 Statement       light_brown none
-Type            light_brown none
+Type            grey        none
 
-Delimiter       white       none
+Delimiter       light_blue  none
 Directory       brown       none
-Function        light_blue  none
+Function        grey        none
 SpecialComment  light_blue  none
 StringDelimiter medium_blue none
 Title           white       none
