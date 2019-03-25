@@ -48,7 +48,7 @@ NonText         medium_blue none
 SpecialKey      medium_blue none
 EndOfBuffer     medium_blue none
 
-Pmenu           light_blue  dark_blue
+Pmenu           light_brown dark_blue
 PmenuSbar       dark_blue   dark_blue
 PmenuSel        white       medium_blue
 PmenuThumb      medium_blue medium_blue
