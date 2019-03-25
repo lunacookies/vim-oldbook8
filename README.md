@@ -54,3 +54,7 @@ _Shell_
 
 ![Vim highlight groups](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-groups.png)
 _Vim highlight groups_
+
+## Wallpaper!
+
+![Old Book](https://raw.githubusercontent.com/arzg/resources/master/oldbook.jpg)
