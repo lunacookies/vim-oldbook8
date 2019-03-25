@@ -64,6 +64,7 @@ ColorColumn     none        dark_blue
 CursorColumn    none        dark_blue
 CursorLine      none        dark_blue
 
+QuickFixLine    darker_blue cyan
 StatusLine      white       medium_blue
 StatusLineNC    medium_blue dark_blue
 TabLine         medium_blue dark_blue
