@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Mon 25 Mar 15:40:46 2019
+" Last Updated: Mon 25 Mar 16:47:50 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -147,6 +147,8 @@ hi! link rubyStringDelimiter StringDelimiter
 hi! link shDerefSimple Identifier
 hi! link shFor Identifier
 hi! link shQuote StringDelimiter
+hi! link shRange Delimiter
+hi! link shVarAssign Operator
 hi! link tmuxFlags Special
 hi! link vimAutoCmdSfxList Type
 hi! link vimAutoEventList Identifier
@@ -311,6 +313,8 @@ finish
 " shDerefSimple             -> Identifier
 " shFor                     -> Identifier
 " shQuote                   -> StringDelimiter
+" shRange                   -> Delimiter
+" shVarAssign               -> Operator
 " tmuxFlags                 -> Special
 " vimAutoCmdSfxList         -> Type
 " vimAutoEventList          -> Identifier
