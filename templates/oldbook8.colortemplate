@@ -190,6 +190,8 @@ rubyStringDelimiter       -> StringDelimiter
 shDerefSimple             -> Identifier
 shFor                     -> Identifier
 shQuote                   -> StringDelimiter
+shRange                   -> Delimiter
+shVarAssign               -> Operator
 tmuxFlags                 -> Special
 vimAutoCmdSfxList         -> Type
 vimAutoEventList          -> Identifier
