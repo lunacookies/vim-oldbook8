@@ -26,13 +26,13 @@ terminal emulator’s colours to match the ones below:
 | Colour  | Normal    | Bright    |
 | ---     | ---       | ---       |
 | Black   | `#3C4855` | `#475461` |
-| Red     | `#A18069` | `#A18069` |
-| Green   | `#A5A6A4` | `#A5A6A4` |
+| Red     | `#DB6C6C` | `#AD8A71` |
+| Green   | `#5BB899` | `#C2BEBA` |
 | Yellow  | `#D5BC02` | `#DDD668` |
-| Blue    | `#899BA6` | `#899BA6` |
-| Magenta | `#999083` | `#999083` |
+| Blue    | `#899BA6` | `#A5A6A4` |
+| Magenta | `#9A9080` | `#9A9080` |
 | Cyan    | `#87D7FF` | `#87D7FF` |
-| White   | `#6C7887` | `#EBEAE9` |
+| White   | `#E4E2E1` | `#616C72` |
 
 A preset with these colours is included for macOS Terminal.app users
 (`OldBook8.terminal`).
