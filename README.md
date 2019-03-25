@@ -36,3 +36,21 @@ terminal emulator’s colours to match the ones below:
 
 A preset with these colours is included for macOS Terminal.app users
 (`OldBook8.terminal`).
+
+## Screenshots
+
+![Searching](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-searching.png)
+_Searching_
+
+![Diffing](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-diffing.png)
+_Diffing_
+
+![Python](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-python.png)
+![Python (again)](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-python2.png)
+_Python_
+
+![Shell](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-shell.png)
+_Shell_
+
+![Vim highlight groups](https://raw.githubusercontent.com/arzg/resources/master/oldbook8-groups.png)
+_Vim highlight groups_
