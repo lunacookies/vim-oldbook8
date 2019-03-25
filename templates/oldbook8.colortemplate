@@ -178,6 +178,7 @@ htmlTag                   -> Delimiter
 htmlTagName               -> Statement
 markdownLinkDelimiter     -> Delimiter
 markdownLinkTextDelimiter -> Delimiter
+pythonBrackets            -> Delimiter
 pythonQuotes              -> StringDelimiter
 pythonTripleQuotes        -> StringDelimiter
 rubyBlockParameter        -> Identifier
@@ -187,6 +188,7 @@ rubyStringDelimiter       -> StringDelimiter
 shDerefSimple             -> Identifier
 shFor                     -> Identifier
 shQuote                   -> StringDelimiter
+tmuxFlags                 -> Special
 vimAutoCmdSfxList         -> Type
 vimAutoEventList          -> Identifier
 vimBracket                -> vimMapModKey
