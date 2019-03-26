@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Mon 25 Mar 16:47:50 2019
+" Last Updated: Tue 26 Mar 15:35:39 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -125,6 +125,7 @@ hi! link diffIsA WarningMsg
 hi! link diffNoEOL WarningMsg
 hi! link diffOnly WarningMsg
 hi! link diffRemoved DiffDelete
+hi! link gitcommitOverflow Error
 hi! link gitconfigAssignment Constant
 hi! link gitconfigEscape Special
 hi! link gitconfigNone Operator
@@ -291,6 +292,7 @@ finish
 " diffNoEOL                 -> WarningMsg
 " diffOnly                  -> WarningMsg
 " diffRemoved               -> DiffDelete
+" gitcommitOverflow         -> Error
 " gitconfigAssignment       -> Constant
 " gitconfigEscape           -> Special
 " gitconfigNone             -> Operator
