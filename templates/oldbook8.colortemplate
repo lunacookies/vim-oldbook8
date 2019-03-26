@@ -168,6 +168,7 @@ diffIsA                   -> WarningMsg
 diffNoEOL                 -> WarningMsg
 diffOnly                  -> WarningMsg
 diffRemoved               -> DiffDelete
+gitcommitOverflow         -> Error
 gitconfigAssignment       -> Constant
 gitconfigEscape           -> Special
 gitconfigNone             -> Operator
