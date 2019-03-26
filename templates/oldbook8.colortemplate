@@ -152,6 +152,7 @@ Tag                       -> Special
 
 Noise                     -> Delimiter
 Searchlight               -> IncSearch
+bashSpecialVariables      -> Identifier
 colortemplateAttr         -> Special
 colortemplateColorDef     -> Special
 colortemplateHiGroup      -> Statement
@@ -188,10 +189,15 @@ rubyBlockParameter        -> Identifier
 rubyBlockParameterList    -> Delimiter
 rubyCurlyBlockDelimiter   -> Delimiter
 rubyStringDelimiter       -> StringDelimiter
+shCmdSubRegion            -> Delimiter
 shDerefSimple             -> Identifier
 shFor                     -> Identifier
+shFunctionOne             -> Statement
+shIf                      -> Statement
 shQuote                   -> StringDelimiter
 shRange                   -> Delimiter
+shSnglCase                -> Delimiter
+shTestOpr                 -> Special
 shVarAssign               -> Operator
 tmuxFlags                 -> Special
 vimAutoCmdSfxList         -> Type
