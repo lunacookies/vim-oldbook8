@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Tue 26 Mar 15:35:39 2019
+" Last Updated: Tue 26 Mar 18:58:54 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -109,6 +109,7 @@ hi! link SpecialChar Special
 hi! link Tag Special
 hi! link Noise Delimiter
 hi! link Searchlight IncSearch
+hi! link bashSpecialVariables Identifier
 hi! link colortemplateAttr Special
 hi! link colortemplateColorDef Special
 hi! link colortemplateHiGroup Statement
@@ -145,10 +146,15 @@ hi! link rubyBlockParameter Identifier
 hi! link rubyBlockParameterList Delimiter
 hi! link rubyCurlyBlockDelimiter Delimiter
 hi! link rubyStringDelimiter StringDelimiter
+hi! link shCmdSubRegion Delimiter
 hi! link shDerefSimple Identifier
 hi! link shFor Identifier
+hi! link shFunctionOne Statement
+hi! link shIf Statement
 hi! link shQuote StringDelimiter
 hi! link shRange Delimiter
+hi! link shSnglCase Delimiter
+hi! link shTestOpr Special
 hi! link shVarAssign Operator
 hi! link tmuxFlags Special
 hi! link vimAutoCmdSfxList Type
@@ -276,6 +282,7 @@ finish
 " Tag                       -> Special
 " Noise                     -> Delimiter
 " Searchlight               -> IncSearch
+" bashSpecialVariables      -> Identifier
 " colortemplateAttr         -> Special
 " colortemplateColorDef     -> Special
 " colortemplateHiGroup      -> Statement
@@ -312,10 +319,15 @@ finish
 " rubyBlockParameterList    -> Delimiter
 " rubyCurlyBlockDelimiter   -> Delimiter
 " rubyStringDelimiter       -> StringDelimiter
+" shCmdSubRegion            -> Delimiter
 " shDerefSimple             -> Identifier
 " shFor                     -> Identifier
+" shFunctionOne             -> Statement
+" shIf                      -> Statement
 " shQuote                   -> StringDelimiter
 " shRange                   -> Delimiter
+" shSnglCase                -> Delimiter
+" shTestOpr                 -> Special
 " shVarAssign               -> Operator
 " tmuxFlags                 -> Special
 " vimAutoCmdSfxList         -> Type
