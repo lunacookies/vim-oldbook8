@@ -27,7 +27,7 @@ terminal emulator’s colours to match the ones below:
 | ---     | ---       | ---       |
 | Black   | `#3c4855` | `#445160` |
 | Red     | `#db6c6c` | `#a78b78` |
-| Green   | `#5bb899` | `#9f9e9c` |
+| Green   | `#5bb899` | `#9d9e9c` |
 | Yellow  | `#d5bc02` | `#ddd668` |
 | Blue    | `#85939b` | `#91908f` |
 | Magenta | `#959089` | `#959089` |
