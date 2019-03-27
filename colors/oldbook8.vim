@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Wed 27 Mar 19:21:17 2019
+" Last Updated: Wed 27 Mar 20:00:50 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -21,7 +21,7 @@ endif
 let g:colors_name = 'oldbook8'
 
 hi Normal ctermfg=7 ctermbg=0 guifg=#d5d4d2 guibg=#3c4855 guisp=NONE cterm=NONE gui=NONE
-hi Cursor ctermfg=0 ctermbg=10 guifg=#3c4855 guibg=#9d9e9c guisp=NONE cterm=NONE gui=NONE
+hi Cursor ctermfg=0 ctermbg=10 guifg=#3c4855 guibg=#a5a6a4 guisp=NONE cterm=NONE gui=NONE
 hi CursorLineNr ctermfg=7 ctermbg=8 guifg=#d5d4d2 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi FoldColumn ctermfg=15 ctermbg=8 guifg=#626c77 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi Folded ctermfg=15 ctermbg=8 guifg=#626c77 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
@@ -33,7 +33,7 @@ hi Ignore ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE
 hi NonText ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi EndOfBuffer ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Pmenu ctermfg=10 ctermbg=8 guifg=#9d9e9c guibg=#445160 guisp=NONE cterm=NONE gui=NONE
+hi Pmenu ctermfg=10 ctermbg=8 guifg=#a5a6a4 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi PmenuSbar ctermfg=8 ctermbg=8 guifg=#445160 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi PmenuSel ctermfg=7 ctermbg=15 guifg=#d5d4d2 guibg=#626c77 guisp=NONE cterm=NONE gui=NONE
 hi PmenuThumb ctermfg=15 ctermbg=15 guifg=#626c77 guibg=#626c77 guisp=NONE cterm=NONE gui=NONE
@@ -65,13 +65,13 @@ hi Comment ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NON
 hi Constant ctermfg=5 ctermbg=NONE guifg=#959089 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Error ctermfg=NONE ctermbg=9 guifg=NONE guibg=#a78b78 guisp=NONE cterm=NONE gui=NONE
 hi Identifier ctermfg=7 ctermbg=NONE guifg=#d5d4d2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi PreProc ctermfg=10 ctermbg=NONE guifg=#9d9e9c guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi PreProc ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Special ctermfg=9 ctermbg=NONE guifg=#a78b78 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Statement ctermfg=10 ctermbg=NONE guifg=#9d9e9c guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Type ctermfg=12 ctermbg=NONE guifg=#91908f guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Statement ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Type ctermfg=12 ctermbg=NONE guifg=#90918f guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Delimiter ctermfg=4 ctermbg=NONE guifg=#85939b guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Directory ctermfg=5 ctermbg=NONE guifg=#959089 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Function ctermfg=12 ctermbg=NONE guifg=#91908f guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Function ctermfg=12 ctermbg=NONE guifg=#90918f guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialComment ctermfg=4 ctermbg=NONE guifg=#85939b guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi StringDelimiter ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Title ctermfg=7 ctermbg=NONE guifg=#d5d4d2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -81,8 +81,8 @@ hi SpellBad ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NON
 hi SpellCap ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
 hi SpellLocal ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
 hi SpellRare ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=NONE cterm=NONE,undercurl gui=NONE,undercurl
-hi markdownBold ctermfg=10 ctermbg=NONE guifg=#9d9e9c guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
-hi markdownItalic ctermfg=10 ctermbg=NONE guifg=#9d9e9c guibg=NONE guisp=NONE cterm=NONE gui=NONE,italic
+hi markdownBold ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
+hi markdownItalic ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE,italic
 hi! link Terminal Normal
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
@@ -109,6 +109,7 @@ hi! link SpecialChar Special
 hi! link Tag Special
 hi! link Noise Delimiter
 hi! link Searchlight IncSearch
+hi! link Todo SpecialComment
 hi! link bashSpecialVariables Identifier
 hi! link colortemplateAttr Special
 hi! link colortemplateColorDef Special
@@ -179,22 +180,22 @@ hi! link zshVariableDef Identifier
 finish
 
 " Background:      dark
-" Color: darker_blue  #3c4855 ~ 0
-" Color: dark_blue    #445160 ~ 8
-" Color: medium_blue  #626c77 ~ 15
-" Color: white        #d5d4d2 ~ 7
-" Color: light_blue   #85939b ~ 4
-" Color: grey         #91908f ~ 12
-" Color: dark_brown   #a78b78 ~ 9
-" Color: brown        #959089 ~ 5
-" Color: light_brown  #9d9e9c ~ 10
-" Color: dark_yellow  #d5bc02 ~ 3
-" Color: yellow       #ddd668 ~ 11
-" Color: cyan         #87d7ff ~ 6
-" Color: red          #db6c6c ~ 1
-" Color: green        #5bb899 ~ 2
+" Color: darker_blue #3c4855 ~ 0
+" Color: dark_blue   #445160 ~ 8
+" Color: medium_blue #626c77 ~ 15
+" Color: white       #d5d4d2 ~ 7
+" Color: light_blue  #85939b ~ 4
+" Color: grey        #90918f ~ 12
+" Color: dark_brown  #a78b78 ~ 9
+" Color: brown       #959089 ~ 5
+" Color: light_grey  #a5a6a4 ~ 10
+" Color: dark_yellow #d5bc02 ~ 3
+" Color: yellow      #ddd668 ~ 11
+" Color: cyan        #87d7ff ~ 6
+" Color: red         #db6c6c ~ 1
+" Color: green       #5bb899 ~ 2
 " Normal          white       darker_blue
-" Cursor          darker_blue light_brown
+" Cursor          darker_blue light_grey
 " CursorLineNr    white       dark_blue
 " FoldColumn      medium_blue dark_blue
 " Folded          medium_blue dark_blue
@@ -206,7 +207,7 @@ finish
 " NonText         medium_blue none
 " SpecialKey      medium_blue none
 " EndOfBuffer     medium_blue none
-" Pmenu           light_brown dark_blue
+" Pmenu           light_grey  dark_blue
 " PmenuSbar       dark_blue   dark_blue
 " PmenuSel        white       medium_blue
 " PmenuThumb      medium_blue medium_blue
@@ -238,9 +239,9 @@ finish
 " Constant        brown       none
 " Error           none        dark_brown
 " Identifier      white       none
-" PreProc         light_brown none
+" PreProc         light_grey  none
 " Special         dark_brown  none
-" Statement       light_brown none
+" Statement       light_grey  none
 " Type            grey        none
 " Delimiter       light_blue  none
 " Directory       brown       none
@@ -254,8 +255,8 @@ finish
 " SpellCap        none        none undercurl
 " SpellLocal      none        none undercurl
 " SpellRare       none        none undercurl
-" markdownBold    light_brown none bold
-" markdownItalic  light_brown none g=italic
+" markdownBold    light_grey  none bold
+" markdownItalic  light_grey  none g=italic
 " Terminal           -> Normal
 " StatusLineTerm     -> StatusLine
 " StatusLineTermNC   -> StatusLineNC
@@ -282,6 +283,7 @@ finish
 " Tag                       -> Special
 " Noise                     -> Delimiter
 " Searchlight               -> IncSearch
+" Todo                      -> SpecialComment
 " bashSpecialVariables      -> Identifier
 " colortemplateAttr         -> Special
 " colortemplateColorDef     -> Special
