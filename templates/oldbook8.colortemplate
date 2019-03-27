@@ -12,27 +12,27 @@ Background:      dark
 # Palette
 #
 
-Color: darker_blue  #3c4855 ~ 0
-Color: dark_blue    #445160 ~ 8
-Color: medium_blue  #626c77 ~ 15
-Color: white        #d5d4d2 ~ 7
-Color: light_blue   #85939b ~ 4
-Color: grey         #91908f ~ 12
-Color: dark_brown   #a78b78 ~ 9
-Color: brown        #959089 ~ 5
-Color: light_brown  #9d9e9c ~ 10
-Color: dark_yellow  #d5bc02 ~ 3
-Color: yellow       #ddd668 ~ 11
-Color: cyan         #87d7ff ~ 6
-Color: red          #db6c6c ~ 1
-Color: green        #5bb899 ~ 2
+Color: darker_blue #3c4855 ~ 0
+Color: dark_blue   #445160 ~ 8
+Color: medium_blue #626c77 ~ 15
+Color: white       #d5d4d2 ~ 7
+Color: light_blue  #85939b ~ 4
+Color: grey        #90918f ~ 12
+Color: dark_brown  #a78b78 ~ 9
+Color: brown       #959089 ~ 5
+Color: light_grey  #a5a6a4 ~ 10
+Color: dark_yellow #d5bc02 ~ 3
+Color: yellow      #ddd668 ~ 11
+Color: cyan        #87d7ff ~ 6
+Color: red         #db6c6c ~ 1
+Color: green       #5bb899 ~ 2
 
 #
 # Highlighting
 #
 
 Normal          white       darker_blue
-Cursor          darker_blue light_brown
+Cursor          darker_blue light_grey
 
 # Vim Interface
 
@@ -49,7 +49,7 @@ NonText         medium_blue none
 SpecialKey      medium_blue none
 EndOfBuffer     medium_blue none
 
-Pmenu           light_brown dark_blue
+Pmenu           light_grey  dark_blue
 PmenuSbar       dark_blue   dark_blue
 PmenuSel        white       medium_blue
 PmenuThumb      medium_blue medium_blue
@@ -89,9 +89,9 @@ Comment         medium_blue none
 Constant        brown       none
 Error           none        dark_brown
 Identifier      white       none
-PreProc         light_brown none
+PreProc         light_grey  none
 Special         dark_brown  none
-Statement       light_brown none
+Statement       light_grey  none
 Type            grey        none
 
 Delimiter       light_blue  none
@@ -108,8 +108,8 @@ SpellCap        none        none undercurl
 SpellLocal      none        none undercurl
 SpellRare       none        none undercurl
 
-markdownBold    light_brown none bold
-markdownItalic  light_brown none g=italic
+markdownBold    light_grey  none bold
+markdownItalic  light_grey  none g=italic
 
 #
 # Links
@@ -152,6 +152,7 @@ Tag                       -> Special
 
 Noise                     -> Delimiter
 Searchlight               -> IncSearch
+Todo                      -> SpecialComment
 bashSpecialVariables      -> Identifier
 colortemplateAttr         -> Special
 colortemplateColorDef     -> Special
