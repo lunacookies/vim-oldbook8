@@ -36,7 +36,7 @@ Cursor          darker_blue light_grey
 
 # Vim Interface
 
-CursorLineNr    white       dark_blue
+CursorLineNr    yellow      darker_blue
 FoldColumn      medium_blue dark_blue
 Folded          medium_blue dark_blue
 LineNr          medium_blue none
