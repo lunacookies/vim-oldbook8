@@ -34,8 +34,7 @@ terminal emulator’s colours to match the ones below:
 | Cyan    | `#87d7ff` | `#87d7ff` |
 | White   | `#d5d4d2` | `#626c77` |
 
-A preset with these colours is included for macOS Terminal.app users
-(`OldBook8.terminal`).
+A preset with these colours is included for iTerm and Terminal.app.
 
 ## Screenshots
 
