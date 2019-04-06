@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat  6 Apr 17:45:28 2019
+" Last Updated: Sat  6 Apr 17:50:29 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -22,7 +22,7 @@ let g:colors_name = 'oldbook8'
 
 hi Normal ctermfg=7 ctermbg=0 guifg=#d5d4d2 guibg=#3c4855 guisp=NONE cterm=NONE gui=NONE
 hi Cursor ctermfg=0 ctermbg=10 guifg=#3c4855 guibg=#a5a6a4 guisp=NONE cterm=NONE gui=NONE
-hi CursorLineNr ctermfg=7 ctermbg=8 guifg=#d5d4d2 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
+hi CursorLineNr ctermfg=11 ctermbg=0 guifg=#ddd668 guibg=#3c4855 guisp=NONE cterm=NONE gui=NONE
 hi FoldColumn ctermfg=15 ctermbg=8 guifg=#626c77 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi Folded ctermfg=15 ctermbg=8 guifg=#626c77 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi LineNr ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -196,7 +196,7 @@ finish
 " Color: green       #5bb899 ~ 2
 " Normal          white       darker_blue
 " Cursor          darker_blue light_grey
-" CursorLineNr    white       dark_blue
+" CursorLineNr    yellow      darker_blue
 " FoldColumn      medium_blue dark_blue
 " Folded          medium_blue dark_blue
 " LineNr          medium_blue none
