@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat  6 Apr 14:19:11 2019
+" Last Updated: Sat  6 Apr 17:45:28 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -65,13 +65,13 @@ hi Comment ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NON
 hi Constant ctermfg=5 ctermbg=NONE guifg=#959089 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Error ctermfg=NONE ctermbg=1 guifg=NONE guibg=#db6c6c guisp=NONE cterm=NONE gui=NONE
 hi Identifier ctermfg=7 ctermbg=NONE guifg=#d5d4d2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi PreProc ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi PreProc ctermfg=12 ctermbg=NONE guifg=#90918f guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Special ctermfg=9 ctermbg=NONE guifg=#a78b78 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Statement ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Type ctermfg=12 ctermbg=NONE guifg=#90918f guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Statement ctermfg=12 ctermbg=NONE guifg=#90918f guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Type ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Delimiter ctermfg=4 ctermbg=NONE guifg=#85939b guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Directory ctermfg=5 ctermbg=NONE guifg=#959089 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Function ctermfg=12 ctermbg=NONE guifg=#90918f guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Function ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi SpecialComment ctermfg=4 ctermbg=NONE guifg=#85939b guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi StringDelimiter ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Title ctermfg=7 ctermbg=NONE guifg=#d5d4d2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -239,13 +239,13 @@ finish
 " Constant        brown       none
 " Error           none        red
 " Identifier      white       none
-" PreProc         light_grey  none
+" PreProc         grey        none
 " Special         dark_brown  none
-" Statement       light_grey  none
-" Type            grey        none
+" Statement       grey        none
+" Type            light_grey  none
 " Delimiter       light_blue  none
 " Directory       brown       none
-" Function        grey        none
+" Function        light_grey  none
 " SpecialComment  light_blue  none
 " StringDelimiter medium_blue none
 " Title           white       none
