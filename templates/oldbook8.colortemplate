@@ -54,7 +54,7 @@ PmenuSbar       dark_blue   dark_blue
 PmenuSel        white       medium_blue
 PmenuThumb      medium_blue medium_blue
 
-ErrorMsg        none        dark_brown
+ErrorMsg        none        red
 ModeMsg         medium_blue none
 MoreMsg         medium_blue none
 Question        white       none
@@ -87,7 +87,7 @@ DiffText        darker_blue dark_yellow
 
 Comment         medium_blue none
 Constant        brown       none
-Error           none        dark_brown
+Error           none        red
 Identifier      white       none
 PreProc         light_grey  none
 Special         dark_brown  none
