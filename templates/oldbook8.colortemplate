@@ -89,14 +89,14 @@ Comment         medium_blue none
 Constant        brown       none
 Error           none        red
 Identifier      white       none
-PreProc         light_grey  none
+PreProc         grey        none
 Special         dark_brown  none
-Statement       light_grey  none
-Type            grey        none
+Statement       grey        none
+Type            light_grey  none
 
 Delimiter       light_blue  none
 Directory       brown       none
-Function        grey        none
+Function        light_grey  none
 SpecialComment  light_blue  none
 StringDelimiter medium_blue none
 Title           white       none
