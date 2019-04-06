@@ -3,7 +3,7 @@
 " Author:       Karolis Koncevicius
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Wed 27 Mar 20:00:50 2019
+" Last Updated: Sat  6 Apr 14:19:11 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 16)
@@ -37,7 +37,7 @@ hi Pmenu ctermfg=10 ctermbg=8 guifg=#a5a6a4 guibg=#445160 guisp=NONE cterm=NONE 
 hi PmenuSbar ctermfg=8 ctermbg=8 guifg=#445160 guibg=#445160 guisp=NONE cterm=NONE gui=NONE
 hi PmenuSel ctermfg=7 ctermbg=15 guifg=#d5d4d2 guibg=#626c77 guisp=NONE cterm=NONE gui=NONE
 hi PmenuThumb ctermfg=15 ctermbg=15 guifg=#626c77 guibg=#626c77 guisp=NONE cterm=NONE gui=NONE
-hi ErrorMsg ctermfg=NONE ctermbg=9 guifg=NONE guibg=#a78b78 guisp=NONE cterm=NONE gui=NONE
+hi ErrorMsg ctermfg=NONE ctermbg=1 guifg=NONE guibg=#db6c6c guisp=NONE cterm=NONE gui=NONE
 hi ModeMsg ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi MoreMsg ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Question ctermfg=7 ctermbg=NONE guifg=#d5d4d2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -63,7 +63,7 @@ hi DiffDelete ctermfg=0 ctermbg=1 guifg=#3c4855 guibg=#db6c6c guisp=NONE cterm=N
 hi DiffText ctermfg=0 ctermbg=3 guifg=#3c4855 guibg=#d5bc02 guisp=NONE cterm=NONE gui=NONE
 hi Comment ctermfg=15 ctermbg=NONE guifg=#626c77 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Constant ctermfg=5 ctermbg=NONE guifg=#959089 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Error ctermfg=NONE ctermbg=9 guifg=NONE guibg=#a78b78 guisp=NONE cterm=NONE gui=NONE
+hi Error ctermfg=NONE ctermbg=1 guifg=NONE guibg=#db6c6c guisp=NONE cterm=NONE gui=NONE
 hi Identifier ctermfg=7 ctermbg=NONE guifg=#d5d4d2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi PreProc ctermfg=10 ctermbg=NONE guifg=#a5a6a4 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Special ctermfg=9 ctermbg=NONE guifg=#a78b78 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -211,7 +211,7 @@ finish
 " PmenuSbar       dark_blue   dark_blue
 " PmenuSel        white       medium_blue
 " PmenuThumb      medium_blue medium_blue
-" ErrorMsg        none        dark_brown
+" ErrorMsg        none        red
 " ModeMsg         medium_blue none
 " MoreMsg         medium_blue none
 " Question        white       none
@@ -237,7 +237,7 @@ finish
 " DiffText        darker_blue dark_yellow
 " Comment         medium_blue none
 " Constant        brown       none
-" Error           none        dark_brown
+" Error           none        red
 " Identifier      white       none
 " PreProc         light_grey  none
 " Special         dark_brown  none
